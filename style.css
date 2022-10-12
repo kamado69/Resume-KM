@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0px;
+  /* padding: 0px; */
+}
+
+.ava {
+  width: 300px;
+  border-radius: 15%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+body {
+  background: #f8f8ff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #0f141e;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  color: #4c4747;
+}
+
+@media (max-width: 580px) {
+  .info {
+    text-align: center;
+  }
+
+  a {
+    font-size: 16px;
+  }
+}
+
+.card-1 h2 {
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-left: 20px;
+}
+
+.card-1 {
+  border-radius: 5px;
+  padding-left: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.card-2 {
+  padding-left: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+
+.card-2 h3 {
+  padding-bottom: 13px;
+}
+
+.card-3 {
+  border-radius: 20px;
+  background-color: #f7cece;
+  padding: 25px 30px 20px 30px;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-4 {
+  border-radius: 20px;
+  background-color: #a4e0f6;
+  padding: 20px 30px 1px 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+
+.card-5 {
+  border-radius: 20px;
+  background-color: #f9dbbe;
+  padding: 25px 30px 20px 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+
+.card-5 div {
+  padding-bottom: 10px;
+}
+
+.card-5 textarea {
+  padding-top: 4px;
+  padding-left: 4px;
+  margin-top: 10px;
+}
+
+.button-submit {
+  border: 1.5px solid #000000;
+  border-radius: 5px;
+  background: #857969;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 7px 9px;
+  color: #f8f8ff;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  color: #040606;
+  opacity: 0.8;
+  background: #f7cece;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background: #6c6c6c;
+  padding: 4px 8px 4px 8px;
+  margin: 3px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(2, 2, 1);
+  background: #f7cece;
+}
+
+a:active {
+  color: blue;
+  background: #a4e0f6;
+}
+
+.inputs {
+  border-radius: 5px;
+}
+
+.inp-1 {
+  padding: 2px 4px 2px 4px;
+}
+
+.inp-2 {
+  padding: 10px 20px 10px 20px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+.table th {
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+.form-group label {
+  display: block;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+}
+
+.form-group textarea {
+  width: 280px;
+  height: 85px;
+}
+
+.form-row {
+}
+
+.form-row .form-group {
+  display: inline-block;
+  margin-right: 40px;
+}
